@@ -1,9 +1,9 @@
 FROM alpine:3.5
-MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
+MAINTAINER Mahmoud Azad <mahmoud.azad@acando.de>
 
 RUN apk add --update --no-cache ca-certificates git
 
-ENV VERSION v2.1.3
+ENV VERSION v2.2.3
 ENV FILENAME helm-${VERSION}-linux-amd64.tar.gz
 
 WORKDIR /
